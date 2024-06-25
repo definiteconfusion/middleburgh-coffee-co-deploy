@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/middleburgh-coffee-co-deploy/static/css/main.3f74dc72.css",
+    "main.js": "/middleburgh-coffee-co-deploy/static/js/main.3da89473.js",
+    "static/js/453.d79e6022.chunk.js": "/middleburgh-coffee-co-deploy/static/js/453.d79e6022.chunk.js",
+    "static/media/Hellenic Typewriter Regular.woff": "/middleburgh-coffee-co-deploy/static/media/Hellenic Typewriter Regular.1325dddc73f64fa27ccd.woff",
+    "index.html": "/middleburgh-coffee-co-deploy/index.html",
+    "main.3f74dc72.css.map": "/middleburgh-coffee-co-deploy/static/css/main.3f74dc72.css.map",
+    "main.3da89473.js.map": "/middleburgh-coffee-co-deploy/static/js/main.3da89473.js.map",
+    "453.d79e6022.chunk.js.map": "/middleburgh-coffee-co-deploy/static/js/453.d79e6022.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f74dc72.css",
+    "static/js/main.3da89473.js"
+  ]
+}
