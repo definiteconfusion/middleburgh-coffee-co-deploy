@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "typescript-mono";
+  src: url("./Fonts/Hellenic Typewriter Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #EAE8E2;
+  margin: 0px;
+  justify-self: center;
+  transition-duration: 1s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 11vH;
+  width: 100vW;
+  justify-content: center;
+  position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-logo {
+  font-family: "typescript-mono", sans-serif;
+  font-size: 4em;
+  margin-top: 2vh;
+  margin-left: 2vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-hamburger_menu {
+  height: 3vH;
+  width: auto;
+  margin-right: 2vH;
+  cursor: pointer;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.home-main-content_container {
+  margin-top: 20vH;
+  width: 60vW;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center; /* Center text within this container */
 }
 
-.App-link {
-  color: #61dafb;
+.home-main-shpeal {
+  font-family: "typescript-mono", sans-serif;
+  font-size: 1.5em;
+  width: 55vW; /* Set width of the text box */
+  margin-bottom: 10vH; /* Add some space between text and image */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-main-image {
+  width: 60vW;
+  height: auto;
 }
+
+.menu-main {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.menu-main-content_container {
+  position: absolute;
+  margin-top: 20vH;
+  width: 60vW;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text within this container */
+}
+
+.menu-main-item-type-label {
+  font-family: "typescript-mono", sans-serif;
+  margin-right: 8rem;
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.menu-main-item {
+  width: 60vW;
+  height: 7vH;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  border: 0.25rem solid black;
+  display: flex;
+  align-items: center;
+  margin-block: 1vH;
+}
+
+.menu-main-item-title {
+  font-family: "typescript-mono", sans-serif;
+  font-size: 2em;
+  margin-inline: 2vH;
+}
+
+.menu-main-item-price {
+  font-family: "typescript-mono", sans-serif;
+  font-size: 1.5em;
+  color: #505050;
+  justify-self: end;
+  margin-inline: 2vH;
+}
+
+.aboutus-main-content_container {
+  position: absolute;
+  margin-top: 20vH;
+  width: 80vW;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text within this container */
+}
+
+.aboutus-main-desc-label {
+  font-family: "typescript-mono", sans-serif;
+  margin-right: 8rem;
+  font-size: 3em;
+}
+
+.aboutus-main-desc-content {
+  font-family: "typescript-mono", sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -30rem; /* Hidden by default */
+  width: 10rem;
+  height: 30vH;
+  background-color: #EAE8E2;
+  transition: right 1s ease;
+  padding: 20px;
+  justify-content: start;
+  display: flex;
+  border-radius: 0 0 0 0.5rem;
+}
+
+.sidebar.open {
+  right: 0; /* Show the sidebar */
+  z-index: 100;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5vH;
+}
+
+.sidebar ul li {
+  margin: 1rem 0;
+}
+
+.sidebar ul li a {
+  color: #000;
+  font-family: "typescript-mono", sans-serif;
+  text-decoration: none;
+  font-size: 1.65rem;
+  cursor: pointer;
+}
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-close-button {
+  height: 3vH;
+  width: 3vH;
+  margin-left: 6vW;
+  margin-top: 3vH;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=App.css.map */
